@@ -13,7 +13,9 @@ public class BinaryTreeTraversalUtil {
 
 	public static <T> void preOrderTraversal(BTNode<T> root) {
 		System.out.println("Traversing Binary Tree in Pre Order....");
+		
 		preOrderInternal(root);
+		
 		System.out.println("Traversal Completed....");
 	}
 
