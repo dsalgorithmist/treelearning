@@ -69,7 +69,7 @@ public class LinkedList<T> implements ILinkedList<T> {
 			temp = temp.getNext();
 		}
 		T data = temp.getData();
-		if (prev == head) {
+		if (temp == head) {
 			head = null;
 		} else {
 			prev.setNext(null);

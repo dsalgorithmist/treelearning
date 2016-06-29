@@ -37,4 +37,9 @@ public class Stack<T> implements IStack<T> {
 		return linkedList.isEmpty();
 	}
 
+	@Override
+	public int size() {
+		return linkedList.size();
+	}
+
 }

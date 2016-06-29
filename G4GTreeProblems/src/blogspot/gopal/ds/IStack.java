@@ -14,5 +14,7 @@ public interface IStack<T> {
 	public T pop();
 
 	public boolean isEmpty();
+	
+	public int size();
 
 }
